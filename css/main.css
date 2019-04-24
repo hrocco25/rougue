@@ -1,0 +1,149 @@
+/******BASE STYLES******/
+body {
+  font-family:'Montserrat', sans-serif;
+  color:#000000;
+}
+
+/*******Grid*****/
+
+.full-width {
+  width:1200px;
+  margin: 0 auto;
+}
+
+.third-width{
+  width:400px;
+  float: left;
+}
+
+
+/******Header*****/
+
+
+header{
+  margin:50px;
+
+}
+
+header h1{
+  width:650px;
+  font-size: 30px;
+  line-height:23px;
+  float: left;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+header h1 span{
+  color: #77a466;
+}
+
+header nav{
+  float: right;
+  padding-left: 46px;
+}
+
+header nav ul li{
+  display:inline-block;
+}
+
+header nav ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#c0d5b8;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+
+
+/*****about*******/
+
+
+#about{
+  margin-bottom: 35px;
+  padding-top: 100px;
+}
+
+.gallery {
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+#about h2{
+  color: #77a466;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+#about p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/*****bottom*****/
+
+
+
+#bottom h3{
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.menu{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 22px;
+  padding-bottom: 68px;
+}
+
+ .menu p{
+  color:green;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.reviews{
+  border: 1px solid grey;
+  padding:25px;
+}
+
+.reviews p{
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.location{
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding-top: 20px;
+  padding-left:20px;
+  padding-bottom: 52px;
+}
+
+.location p{
+  font-size: 16px;
+  line-height: 24px;
+}
+/******footer******/
+
+footer{
+  clear: both;
+  text-align: center;
+  font-size: 16px;
+  line-height: 23px;
+  padding-top: 35px;
+}
+
+footer span{
+  color: #adc8a3;
+  font-style:italic;
+  font-family: 'Great Vibes', cursive;
+}
